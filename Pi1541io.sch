@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "15 nov 2012"
-Rev ""
-Comp ""
-Comment1 ""
+Title "PI1541 IO Adapter"
+Date "2018-05-09"
+Rev "1"
+Comp "hackup.net"
+Comment1 "https://github.com/hackup/Pi1541io"
 Comment2 ""
 Comment3 ""
 Comment4 ""

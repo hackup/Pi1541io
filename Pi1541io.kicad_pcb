@@ -11,7 +11,11 @@
 
   (page A3)
   (title_block
-    (date "15 nov 2012")
+    (title "PI1541 IO Adapter")
+    (date 2018-05-09)
+    (rev 1)
+    (company hackup.net)
+    (comment 1 https://github.com/hackup/Pi1541io)
   )
 
   (layers
@@ -925,13 +929,13 @@
     )
   )
 
-  (module "hackup:Piezo Speaker 1407" (layer F.Cu) (tedit 5AF30068) (tstamp 5B049B98)
+  (module "hackup:Piezo Speaker 1407" (layer F.Cu) (tedit 5AF30D0F) (tstamp 5B049B98)
     (at 254.61 109.995 270)
     (path /5AF31714)
     (fp_text reference LS1 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Spkr (at -0.127 3.302) (layer F.SilkS)
+    (fp_text value Spkr (at 0 2.794 270 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 7 0) (layer F.SilkS) (width 0.15))
