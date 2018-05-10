@@ -1108,7 +1108,7 @@
   )
 
   (module Logo:bigby (layer F.Cu) (tedit 0) (tstamp 5B04A804)
-    (at 263.147 33.202 270)
+    (at 150.597 87.516 270)
     (fp_text reference G*** (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
