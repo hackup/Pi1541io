@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_DIN-6
+# Connector:DIN-6
 #
-DEF Connector_DIN-6 J 0 40 Y Y 1 F N
+DEF Connector:DIN-6 J 0 40 Y Y 1 F N
 F0 "J" 125 225 50 H V C CNN
-F1 "Connector_DIN-6" 175 -175 50 H V L CNN
+F1 "Connector:DIN-6" 175 -175 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -37,11 +37,11 @@ X ~ 6 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_Mounting_Hole
+# Mechanical:Mounting_Hole
 #
-DEF Mechanical_Mounting_Hole MK 0 40 Y Y 1 F N
+DEF Mechanical:Mounting_Hole MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "Mechanical_Mounting_Hole" 0 125 50 H V C CNN
+F1 "Mechanical:Mounting_Hole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -53,11 +53,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# Switch:SW_Push
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
+DEF Switch:SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F1 "Switch:SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -70,11 +70,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# conn_Conn_01x02
+# conn:Conn_01x02
 #
-DEF conn_Conn_01x02 J 0 40 Y N 1 F N
+DEF conn:Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "conn_Conn_01x02" 0 -200 50 H V C CNN
+F1 "conn:Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -94,11 +94,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn_Conn_01x06
+# conn:Conn_01x06
 #
-DEF conn_Conn_01x06 J 0 40 Y N 1 F N
+DEF conn:Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "conn_Conn_01x06" 0 -400 50 H V C CNN
+F1 "conn:Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -126,11 +126,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn_Conn_02x20_Odd_Even
+# conn:Conn_02x20_Odd_Even
 #
-DEF conn_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
+DEF conn:Conn_02x20_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 1000 50 H V C CNN
-F1 "conn_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
+F1 "conn:Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -226,11 +226,11 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_LED
+# device:LED
 #
-DEF device_LED D 0 40 Y N 1 F N
+DEF device:LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device_LED" 0 -100 50 H V C CNN
+F1 "device:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -247,11 +247,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_R
+# device:R
 #
-DEF device_R R 0 0 N Y 1 F N
+DEF device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device_R" 0 0 50 V V C CNN
+F1 "device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -265,11 +265,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_Speaker_Crystal
+# device:Speaker_Crystal
 #
-DEF device_Speaker_Crystal LS 0 0 Y N 1 F N
+DEF device:Speaker_Crystal LS 0 0 Y N 1 F N
 F0 "LS" 25 225 50 H V R CNN
-F1 "device_Speaker_Crystal" 25 150 50 H V R CNN
+F1 "device:Speaker_Crystal" 25 150 50 H V R CNN
 F2 "" -35 -50 50 H I C CNN
 F3 "" -35 -50 50 H I C CNN
 ALIAS Speaker_Ultrasound
@@ -286,11 +286,11 @@ X 2 2 -200 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# hackup_LevelShifterModule4CH
+# hackup:LevelShifterModule4CH
 #
-DEF hackup_LevelShifterModule4CH U 0 40 Y Y 5 L N
+DEF hackup:LevelShifterModule4CH U 0 40 Y Y 5 L N
 F0 "U" -250 200 50 H V C CNN
-F1 "hackup_LevelShifterModule4CH" -600 -200 50 H V C CNN
+F1 "hackup:LevelShifterModule4CH" -600 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -329,11 +329,75 @@ X GND 9 50 -450 200 U 50 50 5 0 W
 ENDDRAW
 ENDDEF
 #
-# power_+3.3V
+# hackup:TXS0108E
 #
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+DEF hackup:TXS0108E U 0 40 Y Y 9 L N
+F0 "U" 0 150 39 H V C CNN
+F1 "hackup:TXS0108E" 0 -150 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 200 100 -200 -100 9 1 0 f
+P 4 1 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 1 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 1 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 1 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+P 4 2 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 2 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 2 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 2 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+P 4 3 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 3 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 3 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 3 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+P 4 4 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 4 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 4 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 4 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+P 4 5 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 5 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 5 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 5 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+P 4 6 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 6 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 6 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 6 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+P 4 7 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 7 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 7 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 7 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+P 4 8 1 0 -50 0 -50 100 50 50 -50 0 f
+P 4 8 1 0 50 0 50 -100 -50 -50 50 0 f
+P 5 8 1 0 -50 50 -100 50 -150 0 -100 -50 -50 -50 N
+P 5 8 1 0 50 50 100 50 150 0 100 -50 50 -50 N
+X A1 1 -350 0 200 R 50 50 1 1 B
+X B1 20 350 0 200 L 50 50 1 1 B
+X B2 18 350 0 200 L 50 50 2 1 B
+X A2 3 -350 0 200 R 50 50 2 1 B
+X B3 17 350 0 200 L 50 50 3 1 B
+X A3 4 -350 0 200 R 50 50 3 1 B
+X B4 16 350 0 200 L 50 50 4 1 B
+X A4 5 -350 0 200 R 50 50 4 1 B
+X B5 15 350 0 200 L 50 50 5 1 B
+X A5 6 -350 0 200 R 50 50 5 1 B
+X B6 14 350 0 200 L 50 50 6 1 B
+X A6 7 -350 0 200 R 50 50 6 1 B
+X B7 13 350 0 200 L 50 50 7 1 B
+X A7 8 -350 0 200 R 50 50 7 1 B
+X B8 12 350 0 200 L 50 50 8 1 B
+X A8 9 -350 0 200 R 50 50 8 1 B
+X OE 10 -400 -50 200 R 50 39 9 1 W
+X GND 11 400 -50 200 L 50 39 9 1 W
+X VccB 19 400 50 200 L 50 39 9 1 W
+X VccA 2 -400 50 200 R 50 39 9 1 W
+ENDDRAW
+ENDDEF
+#
+# power:+3.3V
+#
+DEF power:+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
+F1 "power:+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -345,11 +409,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# power:+5V
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
+DEF power:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -360,11 +424,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
