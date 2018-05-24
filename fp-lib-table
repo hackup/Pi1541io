@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name DIN-Connector)(type KiCad)(uri C:/Users/cg/ownCloud/Devel/Hardware/kicad-hackup/library/DIN-Connector.pretty)(options "")(descr ""))
+  (lib (name DIN-Connector)(type KiCad)(uri "$(KIPRJMOD)/lib/DIN-Connector.pretty")(options "")(descr ""))
+  (lib (name hackup)(type KiCad)(uri "$(KIPRJMOD)/lib/hackup.pretty")(options "")(descr ""))
 )
