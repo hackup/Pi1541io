@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "PI1541 IO Adapter")
+    (title "Pi1541 IO Adapter")
     (date 2018-05-25)
     (rev 2)
     (company hackup.net)
@@ -2169,7 +2169,7 @@
   (gr_text github.com/hackup/Pi1541io (at 168.885 87.008 270) (layer F.SilkS) (tstamp 5B10DEEE)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
-  (gr_text "PI1541 IO Adapter" (at 165.583 81.42 270) (layer F.SilkS) (tstamp 5B10DEE6)
+  (gr_text "Pi1541 IO Adapter" (at 165.583 81.42 270) (layer F.SilkS) (tstamp 5B10DEE6)
     (effects (font (size 2 2) (thickness 0.3)) (justify left))
   )
   (gr_line (start 106.147 78.2069) (end 106.147 96.2028) (layer Edge.Cuts) (width 0.1) (tstamp 5AF31F27))

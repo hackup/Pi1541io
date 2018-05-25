@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "PI1541 IO Adapter"
+Title "Pi1541 IO Adapter"
 Date "2018-05-25"
 Rev "2"
 Comp "hackup.net"
