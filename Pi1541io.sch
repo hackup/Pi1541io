@@ -6,13 +6,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PI1541 IO Adapter"
-Date "2018-05-24"
-Rev "x"
+Date "2018-05-25"
+Rev "2"
 Comp "hackup.net"
 Comment1 "https://github.com/hackup/Pi1541io"
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Creative Commons Attribution-ShareAlike 4.0 International License"
+Comment4 "This work is licensed under a"
 $EndDescr
 $Comp
 L power:+5V #PWR01
@@ -182,53 +182,51 @@ GPIO14(TXD0)
 Wire Wire Line
 	4100 1600 4000 1600
 Connection ~ 4100 2000
-Text Notes 650  7600 0    50   ~ 0
-ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required.
 $Comp
 L Mechanical:Mounting_Hole MK1
 U 1 1 5834FB2E
-P 3000 7200
-F 0 "MK1" H 3100 7246 50  0000 L CNN
-F 1 "M2.5" H 3100 7155 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm" H 3000 7200 60  0001 C CNN
-F 3 "" H 3000 7200 60  0001 C CNN
-	1    3000 7200
+P 750 7300
+F 0 "MK1" H 850 7346 50  0000 L CNN
+F 1 "M2.5" H 850 7255 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 750 7300 60  0001 C CNN
+F 3 "" H 750 7300 60  0001 C CNN
+	1    750  7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Mounting_Hole MK3
 U 1 1 5834FBEF
-P 3450 7200
-F 0 "MK3" H 3550 7246 50  0000 L CNN
-F 1 "M2.5" H 3550 7155 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm" H 3450 7200 60  0001 C CNN
-F 3 "" H 3450 7200 60  0001 C CNN
-	1    3450 7200
+P 1200 7300
+F 0 "MK3" H 1300 7346 50  0000 L CNN
+F 1 "M2.5" H 1300 7255 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 1200 7300 60  0001 C CNN
+F 3 "" H 1200 7300 60  0001 C CNN
+	1    1200 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Mounting_Hole MK2
 U 1 1 5834FC19
-P 3000 7400
-F 0 "MK2" H 3100 7446 50  0000 L CNN
-F 1 "M2.5" H 3100 7355 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm" H 3000 7400 60  0001 C CNN
-F 3 "" H 3000 7400 60  0001 C CNN
-	1    3000 7400
+P 750 7500
+F 0 "MK2" H 850 7546 50  0000 L CNN
+F 1 "M2.5" H 850 7455 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 750 7500 60  0001 C CNN
+F 3 "" H 750 7500 60  0001 C CNN
+	1    750  7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Mounting_Hole MK4
 U 1 1 5834FC4F
-P 3450 7400
-F 0 "MK4" H 3550 7446 50  0000 L CNN
-F 1 "M2.5" H 3550 7355 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm" H 3450 7400 60  0001 C CNN
-F 3 "" H 3450 7400 60  0001 C CNN
-	1    3450 7400
+P 1200 7500
+F 0 "MK4" H 1300 7546 50  0000 L CNN
+F 1 "M2.5" H 1300 7455 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 1200 7500 60  0001 C CNN
+F 3 "" H 1200 7500 60  0001 C CNN
+	1    1200 7500
 	1    0    0    -1  
 $EndComp
-Text Notes 3000 7050 0    50   ~ 0
+Text Notes 750  7150 0    50   ~ 0
 Mounting Holes
 $Comp
 L conn:Conn_02x20_Odd_Even P1
@@ -515,8 +513,6 @@ Connection ~ 4100 3400
 Wire Wire Line
 	4100 3400 4100 3450
 Wire Wire Line
-	1550 2800 1550 2900
-Wire Wire Line
 	1550 3400 3400 3400
 Connection ~ 1550 2800
 Connection ~ 3400 3400
@@ -558,21 +554,16 @@ $EndComp
 $Comp
 L device:Speaker_Crystal LS1
 U 1 1 5AF31714
-P 1100 3000
-F 0 "LS1" H 1067 2583 50  0000 C CNN
-F 1 "Spkr" H 1067 2674 50  0000 C CNN
-F 2 "hackup:Piezo Speaker 1407" H 1065 2950 50  0001 C CNN
-F 3 "" H 1065 2950 50  0001 C CNN
-	1    1100 3000
+P 700 3000
+F 0 "LS1" H 667 2583 50  0000 C CNN
+F 1 "Spkr" H 667 2674 50  0000 C CNN
+F 2 "hackup:Piezo Speaker 1407" H 665 2950 50  0001 C CNN
+F 3 "" H 665 2950 50  0001 C CNN
+	1    700  3000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1300 3000 1450 3000
-Wire Wire Line
-	1300 2900 1350 2900
-Connection ~ 1550 2900
-Wire Wire Line
-	1550 2900 1550 3400
+	900  2900 950  2900
 $Comp
 L device:LED D2
 U 1 1 5AF39CA9
@@ -611,28 +602,21 @@ Wire Wire Line
 $Comp
 L conn:Conn_01x02 J4
 U 1 1 5AF4251E
-P 1100 3500
-F 0 "J4" H 1020 3175 50  0000 C CNN
-F 1 "ExtSpkr" H 1020 3266 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1100 3500 50  0001 C CNN
-F 3 "~" H 1100 3500 50  0001 C CNN
-	1    1100 3500
+P 700 3500
+F 0 "J4" H 620 3175 50  0000 C CNN
+F 1 "ExtSpkr" H 620 3266 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 700 3500 50  0001 C CNN
+F 3 "~" H 700 3500 50  0001 C CNN
+	1    700  3500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1300 3400 1350 3400
+	900  3400 950  3400
 Wire Wire Line
-	1350 3400 1350 2900
-Connection ~ 1350 2900
+	950  3400 950  2900
+Connection ~ 950  2900
 Wire Wire Line
-	1350 2900 1550 2900
-Wire Wire Line
-	1300 3500 1450 3500
-Wire Wire Line
-	1450 3500 1450 3000
-Connection ~ 1450 3000
-Wire Wire Line
-	1450 3000 3500 3000
+	900  3500 1050 3500
 $Comp
 L conn:Conn_01x06 J3
 U 1 1 5AFB0DCF
@@ -826,118 +810,118 @@ DATA_IN
 $Comp
 L Logic_TTL_IEEE:7406 U2
 U 1 1 5B07BAD8
-P 2000 4850
-F 0 "U2" H 2000 5316 50  0000 C CNN
-F 1 "7406" H 2000 5225 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 2000 4850 50  0001 C CNN
-F 3 "" H 2000 4850 50  0001 C CNN
-	1    2000 4850
+P 1900 4400
+F 0 "U2" H 1900 4866 50  0000 C CNN
+F 1 "7406" H 1900 4775 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 1900 4400 50  0001 C CNN
+F 3 "" H 1900 4400 50  0001 C CNN
+	1    1900 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Logic_TTL_IEEE:7406 U2
 U 2 1 5B07BCB0
-P 2000 5850
-F 0 "U2" H 2000 6316 50  0000 C CNN
-F 1 "7406" H 2000 6225 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 2000 5850 50  0001 C CNN
-F 3 "" H 2000 5850 50  0001 C CNN
-	2    2000 5850
+P 1900 5400
+F 0 "U2" H 1900 5866 50  0000 C CNN
+F 1 "7406" H 1900 5775 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 1900 5400 50  0001 C CNN
+F 3 "" H 1900 5400 50  0001 C CNN
+	2    1900 5400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 4850 0    50   Input ~ 0
+Text GLabel 1350 4400 0    50   Input ~ 0
 DATA_BD
-Text GLabel 1450 5850 0    50   Input ~ 0
+Text GLabel 1350 5400 0    50   Input ~ 0
 CLK_BD
-Text GLabel 2750 5850 2    50   Input ~ 0
+Text GLabel 2650 5400 2    50   Input ~ 0
 CLK
-Text GLabel 2750 4850 2    50   Input ~ 0
+Text GLabel 2650 4400 2    50   Input ~ 0
 DATA
 Wire Wire Line
-	2550 4850 2600 4850
+	2450 4400 2500 4400
 Wire Wire Line
-	2550 5850 2600 5850
+	2450 5400 2500 5400
 $Comp
 L device:R R4
 U 1 1 5B084030
-P 2600 5700
-F 0 "R4" H 2670 5746 50  0000 L CNN
-F 1 "1k" H 2670 5655 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2530 5700 50  0001 C CNN
-F 3 "" H 2600 5700 50  0001 C CNN
-	1    2600 5700
+P 2500 5250
+F 0 "R4" H 2570 5296 50  0000 L CNN
+F 1 "1k" H 2570 5205 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2430 5250 50  0001 C CNN
+F 3 "" H 2500 5250 50  0001 C CNN
+	1    2500 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2600 5850
+Connection ~ 2500 5400
 Wire Wire Line
-	2600 5850 2750 5850
+	2500 5400 2650 5400
 $Comp
 L device:R R3
 U 1 1 5B08412D
-P 2600 4700
-F 0 "R3" H 2670 4746 50  0000 L CNN
-F 1 "1k" H 2670 4655 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2530 4700 50  0001 C CNN
-F 3 "" H 2600 4700 50  0001 C CNN
-	1    2600 4700
+P 2500 4250
+F 0 "R3" H 2570 4296 50  0000 L CNN
+F 1 "1k" H 2570 4205 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2430 4250 50  0001 C CNN
+F 3 "" H 2500 4250 50  0001 C CNN
+	1    2500 4250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2600 4850
+Connection ~ 2500 4400
 Wire Wire Line
-	2600 4850 2750 4850
+	2500 4400 2650 4400
 $Comp
 L power:+5V #PWR0107
 U 1 1 5B0841E3
-P 2600 4500
-F 0 "#PWR0107" H 2600 4350 50  0001 C CNN
-F 1 "+5V" H 2600 4640 50  0000 C CNN
-F 2 "" H 2600 4500 50  0000 C CNN
-F 3 "" H 2600 4500 50  0000 C CNN
-	1    2600 4500
+P 2500 4050
+F 0 "#PWR0107" H 2500 3900 50  0001 C CNN
+F 1 "+5V" H 2500 4190 50  0000 C CNN
+F 2 "" H 2500 4050 50  0000 C CNN
+F 3 "" H 2500 4050 50  0000 C CNN
+	1    2500 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0110
 U 1 1 5B084272
-P 2600 5550
-F 0 "#PWR0110" H 2600 5400 50  0001 C CNN
-F 1 "+5V" H 2600 5690 50  0000 C CNN
-F 2 "" H 2600 5550 50  0000 C CNN
-F 3 "" H 2600 5550 50  0000 C CNN
-	1    2600 5550
+P 2500 5100
+F 0 "#PWR0110" H 2500 4950 50  0001 C CNN
+F 1 "+5V" H 2500 5240 50  0000 C CNN
+F 2 "" H 2500 5100 50  0000 C CNN
+F 3 "" H 2500 5100 50  0000 C CNN
+	1    2500 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 4600 2000 4550
+	1900 4150 1900 4100
 Wire Wire Line
-	2000 4550 2600 4550
+	1900 4100 2500 4100
 Wire Wire Line
-	2600 4550 2600 4500
-Connection ~ 2600 4550
+	2500 4100 2500 4050
+Connection ~ 2500 4100
 $Comp
 L device:C C1
 U 1 1 5B091DC5
-P 3250 4850
-F 0 "C1" H 3365 4896 50  0000 L CNN
-F 1 "C" H 3365 4805 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3288 4700 50  0001 C CNN
-F 3 "" H 3250 4850 50  0001 C CNN
-	1    3250 4850
+P 3150 4400
+F 0 "C1" H 3265 4446 50  0000 L CNN
+F 1 "C" H 3265 4355 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3188 4250 50  0001 C CNN
+F 3 "" H 3150 4400 50  0001 C CNN
+	1    3150 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5B091E51
-P 3250 5150
-F 0 "#PWR0111" H 3250 4900 50  0001 C CNN
-F 1 "GND" H 3250 5000 50  0000 C CNN
-F 2 "" H 3250 5150 50  0000 C CNN
-F 3 "" H 3250 5150 50  0000 C CNN
-	1    3250 5150
+P 3150 4700
+F 0 "#PWR0111" H 3150 4450 50  0001 C CNN
+F 1 "GND" H 3150 4550 50  0000 C CNN
+F 2 "" H 3150 4700 50  0000 C CNN
+F 3 "" H 3150 4700 50  0000 C CNN
+	1    3150 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 4550 3250 4550
+	2500 4100 3150 4100
 $Comp
 L power:+3.3V #PWR0112
 U 1 1 5B096BCC
@@ -950,14 +934,14 @@ F 3 "" H 900 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 5100 2000 5150
+	1900 4650 1900 4700
 Wire Wire Line
-	2000 5150 3250 5150
+	1900 4700 3150 4700
 Wire Wire Line
-	3250 5150 3250 5000
-Connection ~ 3250 5150
+	3150 4700 3150 4550
+Connection ~ 3150 4700
 Wire Wire Line
-	3250 4550 3250 4700
+	3150 4100 3150 4250
 $Comp
 L Switch:SW_Push SW6
 U 1 1 5B08095A
@@ -1294,17 +1278,183 @@ Text Notes 7900 3900 0    50   ~ 0
 Text Notes 6300 3900 0    50   ~ 0
 Discrete Level Shifter Components
 Wire Notes Line
-	3500 4300 1050 4300
+	3400 3850 950  3850
 Wire Notes Line
-	1050 4300 1050 6150
+	950  3850 950  5700
 Wire Notes Line
-	1050 6150 3500 6150
+	950  5700 3400 5700
 Wire Notes Line
-	3500 6150 3500 4300
-Text Notes 2400 6100 0    50   ~ 0
+	3400 5700 3400 3850
+Text Notes 2300 5650 0    50   ~ 0
 7406 Bus Driver (optional)
 Text Notes 6650 4050 0    50   ~ 0
 Fit either a compatible level shifter module OR the discrete components!
 Text GLabel 5050 3300 2    50   Input ~ 0
 SRQ_IN
+$Comp
+L Transistor:BSS138 Q5
+U 1 1 5B084802
+P 4550 6350
+F 0 "Q5" V 4800 6350 50  0000 C CNN
+F 1 "BSS138" V 4891 6350 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4750 6275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4550 6350 50  0001 L CNN
+	1    4550 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R14
+U 1 1 5B084809
+P 4250 6300
+F 0 "R14" H 4320 6346 50  0000 L CNN
+F 1 "R" H 4320 6255 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 4180 6300 50  0001 C CNN
+F 3 "" H 4250 6300 50  0001 C CNN
+	1    4250 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6150 4550 6150
+Wire Wire Line
+	4350 6450 4250 6450
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 5B084812
+P 4250 6150
+F 0 "#PWR0121" H 4250 6000 50  0001 C CNN
+F 1 "+3.3V" H 4250 6290 50  0000 C CNN
+F 2 "" H 4250 6150 50  0000 C CNN
+F 3 "" H 4250 6150 50  0000 C CNN
+	1    4250 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 6150
+$Comp
+L device:R R15
+U 1 1 5B084819
+P 4750 6300
+F 0 "R15" H 4820 6346 50  0000 L CNN
+F 1 "R" H 4820 6255 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 4680 6300 50  0001 C CNN
+F 3 "" H 4750 6300 50  0001 C CNN
+	1    4750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 5B084820
+P 4750 6150
+F 0 "#PWR0122" H 4750 6000 50  0001 C CNN
+F 1 "+5V" H 4750 6290 50  0000 C CNN
+F 2 "" H 4750 6150 50  0000 C CNN
+F 3 "" H 4750 6150 50  0000 C CNN
+	1    4750 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6450 4150 6450
+Connection ~ 4250 6450
+Wire Wire Line
+	4750 6450 4850 6450
+Connection ~ 4750 6450
+Text GLabel 4850 6450 2    50   Input ~ 0
+SRQ
+Text GLabel 4150 6450 0    50   Input ~ 0
+SRQ_3V
+Text GLabel 3500 6500 0    50   Input ~ 0
+SRQ_BD
+$Comp
+L conn:GS3 J9
+U 1 1 5B09227D
+P 3650 6600
+F 0 "J9" H 3650 6905 50  0000 C CNN
+F 1 "GS3" H 3650 6814 50  0000 C CNN
+F 2 "Connectors:GS3" V 3738 6526 50  0001 C CNN
+F 3 "" H 3650 6600 50  0001 C CNN
+	1    3650 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 6700 0    50   Input ~ 0
+SRQ_IN
+Text GLabel 3800 6600 2    50   Input ~ 0
+SRQ_3V
+$Comp
+L Logic_TTL_IEEE:7406 U2
+U 4 1 5B0A6AD9
+P 1900 6550
+F 0 "U2" H 1900 7016 50  0000 C CNN
+F 1 "7406" H 1900 6925 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 1900 6550 50  0001 C CNN
+F 3 "" H 1900 6550 50  0001 C CNN
+	4    1900 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 6550 0    50   Input ~ 0
+SRQ_BD
+Text GLabel 2650 6550 2    50   Input ~ 0
+SRQ
+Wire Wire Line
+	2450 6550 2500 6550
+$Comp
+L device:R R13
+U 1 1 5B0A6AE3
+P 2500 6400
+F 0 "R13" H 2570 6446 50  0000 L CNN
+F 1 "1k" H 2570 6355 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2430 6400 50  0001 C CNN
+F 3 "" H 2500 6400 50  0001 C CNN
+	1    2500 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 6550
+Wire Wire Line
+	2500 6550 2650 6550
+$Comp
+L power:+5V #PWR0123
+U 1 1 5B0A6AEC
+P 2500 6250
+F 0 "#PWR0123" H 2500 6100 50  0001 C CNN
+F 1 "+5V" H 2500 6390 50  0000 C CNN
+F 2 "" H 2500 6250 50  0000 C CNN
+F 3 "" H 2500 6250 50  0000 C CNN
+	1    2500 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2800 1550 2900
+Connection ~ 1550 2900
+Wire Wire Line
+	1550 2900 1550 3400
+$Comp
+L device:Jumper_NC_Small JP1
+U 1 1 5B0F3F40
+P 1350 3000
+F 0 "JP1" H 1350 2950 50  0000 C CNN
+F 1 "SPKR_EN" H 1350 3100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1350 3000 50  0001 C CNN
+F 3 "" H 1350 3000 50  0001 C CNN
+	1    1350 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 3000 3500 3000
+Wire Wire Line
+	1250 3000 1050 3000
+Wire Wire Line
+	1050 3500 1050 3000
+Connection ~ 1050 3000
+Wire Wire Line
+	1050 3000 900  3000
+Wire Wire Line
+	950  2900 1550 2900
+Wire Notes Line
+	5100 5950 950  5950
+Wire Notes Line
+	950  5950 950  6950
+Wire Notes Line
+	950  6950 5100 6950
+Wire Notes Line
+	5100 6950 5100 5950
+Text Notes 3800 6900 0    50   ~ 0
+Reserved SRQ support (optional).
 $EndSCHEMATC
