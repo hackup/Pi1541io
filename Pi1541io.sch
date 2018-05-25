@@ -1305,4 +1305,6 @@ Text Notes 2400 6100 0    50   ~ 0
 7406 Bus Driver (optional)
 Text Notes 6650 4050 0    50   ~ 0
 Fit either a compatible level shifter module OR the discrete components!
+Text GLabel 5050 3300 2    50   Input ~ 0
+SRQ_IN
 $EndSCHEMATC
