@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name conn)(type Legacy)(uri ${KIPRJMOD}/lib/conn.lib)(options "")(descr ""))
+  (lib (name hackup)(type Legacy)(uri ${KIPRJMOD}/lib/hackup.lib)(options "")(descr ""))
   (lib (name Pi1541io)(type Legacy)(uri ${KIPRJMOD}/Pi1541io.lib)(options "")(descr ""))
 )
