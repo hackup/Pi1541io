@@ -8,6 +8,12 @@ The [Gerber files](gerber/Pi1541io-rev2.zip) for the latest revision are include
 
 ## Revisions
 
+### Revision 3
+The third revision is still in the planning phase. Ideas currently being considered:
+* I2C connector for SSD1305 OLED displays.
+* Alternative power supply connector.
+
+
 ### Revision 2
 The second revision features quite a few improvements, the most important one being optional support for the 7406 bus driver IC. For further details and instructions on how to assemble this board [see here](https://www.hackup.net/2018/06/pi1541io-revision-2/).
 
