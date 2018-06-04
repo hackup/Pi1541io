@@ -11,7 +11,7 @@ The [Gerber files](gerber/Pi1541io-rev2.zip) for the latest revision are include
 ### Revision 3
 The third revision is still in the planning phase. Ideas currently being considered:
 * I2C connector for SSD1305 OLED displays.
-* Alternative power supply connector.
+* Alternative power supply connector with power switch.
 
 
 ### Revision 2
