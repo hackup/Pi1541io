@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/conn.lib)(options "")(descr ""))
+  (lib (name Pi1541io)(type Legacy)(uri ${KIPRJMOD}/Pi1541io.lib)(options "")(descr ""))
 )
