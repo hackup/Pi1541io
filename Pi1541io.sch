@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Pi1541 IO Adapter"
-Date "2018-06-05"
+Date "2018-06-13"
 Rev "3"
 Comp "hackup.net"
 Comment1 "https://github.com/hackup/Pi1541io"

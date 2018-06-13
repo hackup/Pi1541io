@@ -12,8 +12,8 @@
   (page A4)
   (title_block
     (title "Pi1541 IO Adapter")
-    (date 2018-05-25)
-    (rev 2)
+    (date 2018-06-13)
+    (rev 3)
     (company hackup.net)
     (comment 1 https://github.com/hackup/Pi1541io)
     (comment 3 "Creative Commons Attribution-ShareAlike 4.0 International License")
@@ -2876,7 +2876,7 @@
   (segment (start 136.539001 88.698001) (end 135.958001 88.698001) (width 0.2) (layer B.Cu) (net 46))
   (segment (start 137.389 89.548) (end 136.539001 88.698001) (width 0.2) (layer B.Cu) (net 46))
 
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5B1F895E) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5B20C416) (hatch edge 0.508)
     (connect_pads (clearance 0.4))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3449,7 +3449,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5B1F895B) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5B20C413) (hatch edge 0.508)
     (connect_pads (clearance 0.4))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
