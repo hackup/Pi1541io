@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Pi1541 IO Adapter"
-Date "2018-06-13"
-Rev "3"
+Date "2018-07-03"
+Rev "4"
 Comp "hackup.net"
 Comment1 "https://github.com/hackup/Pi1541io"
 Comment2 ""
@@ -1521,17 +1521,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 4700 4750 4250
 $Comp
-L power:+5V #PWR0124
-U 1 1 5B1E55D7
-P 4750 4250
-F 0 "#PWR0124" H 4750 4100 50  0001 C CNN
-F 1 "+5V" H 4750 4390 50  0000 C CNN
-F 2 "" H 4750 4250 50  0000 C CNN
-F 3 "" H 4750 4250 50  0000 C CNN
-	1    4750 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0125
 U 1 1 5B1E56FA
 P 4650 5100
@@ -1572,4 +1561,15 @@ Wire Notes Line
 	5300 3850 3550 3850
 Text Notes 4400 5650 0    50   ~ 0
 I2C Display Connector
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B3C1A0C
+P 4750 4250
+F 0 "#PWR?" H 4750 4100 50  0001 C CNN
+F 1 "+3.3V" H 4750 4390 50  0000 C CNN
+F 2 "" H 4750 4250 50  0000 C CNN
+F 3 "" H 4750 4250 50  0000 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
