@@ -1454,7 +1454,7 @@ Wire Notes Line
 Wire Notes Line
 	3500 5700 950  5700
 $Comp
-L Connector:Conn_01x04 J12
+L Pi1541io:Conn_01x04-Connector J12
 U 1 1 5B16BA02
 P 5000 4500
 F 0 "J12" H 5080 4492 50  0000 L CNN
