@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-154-gb82bf7c44)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-406-g05dae9627)")
 
   (general
     (thickness 1.6)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "Pi1541 IO Adapter")
-    (date 2018-07-03)
+    (date 2018-07-05)
     (rev 4)
     (company hackup.net)
     (comment 1 https://github.com/hackup/Pi1541io)
@@ -80,7 +80,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15.000000)
+      (hpglpendiameter 15)
       (psnegative false)
       (psa4output false)
       (plotreference true)
