@@ -1,19 +1,23 @@
 # PI1541 IO Adapter
 
-This is an IO adapter board for the Raspberry Pi 3 based on the awesome [Pi1541
+This is an IO adapter board for the Raspberry Pi 3, based on the awesome [Pi1541
 project](https://cbm-pi1541.firebaseapp.com/) by Steve White. It is currently
 very much work in progress. **USE AT YOUR OWN RISK!**
 
-The [Gerber files](gerber/Pi1541io-rev2.zip) for the latest stable revision are included.
+Details of the adapter board development are [documented on hackup.net](https://www.hackup.net/tag/pi1541/). The [Gerber files](gerber/Pi1541io-rev4.zip) for the latest stable revision are included in the repository.
 
 ## Revisions
 
 ### Revision 4
-This revision of the board hopefully resolves the I2C power supply issues of the previous version. All relevant aspects of the I2C header must now be configured using solder bridges on the bottom side of the PCB.
+This revision of the board resolves the I2C power supply issues of the previous version. All relevant aspects of the I2C header must now be configured using solder bridges on the bottom side of the PCB.
+
+![Pi1541io Rev.2](media/i2c-config.jpg)
 
 * Select either 3.3V or 5V power supply. (If in doubt, use 3.3V!)
 * Pin order: Vin-GND-SCL-SDA or GND-Vin-SCL-SDA
 * Chose either I2C bus 0 or 1
+
+See [here](https://www.hackup.net/2018/07/pi1541io-revision-4/) for more details.
 
 ![Pi1541io Rev.2](media/Pi1541io-rev4-front.jpg)
 
