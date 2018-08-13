@@ -11,7 +11,7 @@ Details of the adapter board development are [documented on hackup.net](https://
 ### Revision 4
 This revision of the board resolves the I2C power supply issues of the previous version. All relevant aspects of the I2C header must now be configured using solder bridges on the bottom side of the PCB.
 
-![Pi1541io Rev.2](media/i2c-config.jpg)
+![I2C Configuration Jumpers](media/i2c-config.JPG)
 
 * Select either 3.3V or 5V power supply. (If in doubt, use 3.3V!)
 * Pin order: Vin-GND-SCL-SDA or GND-Vin-SCL-SDA
