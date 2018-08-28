@@ -183,7 +183,7 @@ Wire Wire Line
 	4100 1350 4000 1350
 Connection ~ 4100 1750
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:MountingHole MK1
 U 1 1 5834FB2E
 P 750 7300
 F 0 "MK1" H 850 7346 50  0000 L CNN
@@ -194,7 +194,7 @@ F 3 "" H 750 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:MountingHole MK3
 U 1 1 5834FBEF
 P 1200 7300
 F 0 "MK3" H 1300 7346 50  0000 L CNN
@@ -205,7 +205,7 @@ F 3 "" H 1200 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:MountingHole MK2
 U 1 1 5834FC19
 P 750 7500
 F 0 "MK2" H 850 7546 50  0000 L CNN
@@ -216,7 +216,7 @@ F 3 "" H 750 7500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Mechanical:MountingHole MK4
 U 1 1 5834FC4F
 P 1200 7500
 F 0 "MK4" H 1300 7546 50  0000 L CNN
