@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Pi1541 IO Adapter"
-Date "2018-07-08"
-Rev "4"
+Date "2018-09-04"
+Rev "4a"
 Comp "hackup.net"
 Comment1 "https://github.com/hackup/Pi1541io"
 Comment2 ""
@@ -367,7 +367,7 @@ U 1 1 5AF65F0B
 P 8800 5400
 F 0 "J1" H 8800 4922 50  0000 C CNN
 F 1 "IEC1" H 8800 5013 50  0000 C CNN
-F 2 "DIN-Connector:DIN-6" H 8800 5400 50  0001 C CNN
+F 2 "DIN-Connector:DIN-6-Variable" H 8800 5400 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 8800 5400 50  0001 C CNN
 	1    8800 5400
 	-1   0    0    1   
@@ -632,7 +632,7 @@ U 1 1 5AF50C56
 P 9700 5400
 F 0 "J2" H 9700 4922 50  0000 C CNN
 F 1 "IEC2" H 9700 5013 50  0000 C CNN
-F 2 "DIN-Connector:DIN-6" H 9700 5400 50  0001 C CNN
+F 2 "DIN-Connector:DIN-6-Variable" H 9700 5400 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 9700 5400 50  0001 C CNN
 	1    9700 5400
 	-1   0    0    1   
