@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Pi1541 IO Adapter"
-Date "2018-09-04"
-Rev "4a"
+Date "2018-09-21"
+Rev "5"
 Comp "hackup.net"
 Comment1 "https://github.com/hackup/Pi1541io"
 Comment2 ""
@@ -1640,4 +1640,26 @@ Wire Wire Line
 	4650 4200 4300 4200
 Wire Wire Line
 	4650 4200 4650 4500
+$Comp
+L Mechanical:MountingHole MK5
+U 1 1 5BA68CF3
+P 1800 7300
+F 0 "MK5" H 1900 7346 50  0000 L CNN
+F 1 "ZipTie" H 1900 7255 50  0000 L CNN
+F 2 "DIN-Connector:ZipTie_2.7mm" H 1800 7300 60  0001 C CNN
+F 3 "" H 1800 7300 60  0001 C CNN
+	1    1800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK6
+U 1 1 5BA6979B
+P 1800 7500
+F 0 "MK6" H 1900 7546 50  0000 L CNN
+F 1 "ZipTie" H 1900 7455 50  0000 L CNN
+F 2 "DIN-Connector:ZipTie_2.7mm" H 1800 7500 60  0001 C CNN
+F 3 "" H 1800 7500 60  0001 C CNN
+	1    1800 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
