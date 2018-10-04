@@ -4,7 +4,7 @@ This is an IO adapter board for the Raspberry Pi 3, based on the awesome [Pi1541
 project](https://cbm-pi1541.firebaseapp.com/) by Steve White. It is currently
 very much work in progress. **USE AT YOUR OWN RISK!**
 
-Details of the adapter board development are [documented on hackup.net](https://www.hackup.net/tag/pi1541/). The [Gerber files](gerber/Pi1541io-rev4.zip) for the latest stable revision are included in the repository.
+Details of the adapter board development are [documented on hackup.net](https://www.hackup.net/tag/pi1541/). The [Gerber files](gerber/Pi1541io-rev4.zip) for the latest stable revision are included in the repository. Also, the boards are ready to be ordered directly from [PCBWay](https://www.pcbway.com/project/shareproject/Pi1541_IO_Adapter__Rev_4.html?inviteid=78096) or [DirtyPCBs](https://dirtypcbs.com/store/designer/details/hackup/6112/pi1541-io-adapter-rev-4).
 
 ## Revisions
 
