@@ -553,15 +553,13 @@ $Comp
 L device:Speaker_Crystal LS1
 U 1 1 5AF31714
 P 700 2750
-F 0 "LS1" H 667 2333 50  0000 C CNN
-F 1 "Spkr" H 667 2424 50  0000 C CNN
+F 0 "LS1" H 700 2400 50  0000 C CNN
+F 1 "Spkr" H 700 2500 50  0000 C CNN
 F 2 "hackup:Piezo Speaker 1407" H 665 2700 50  0001 C CNN
 F 3 "" H 665 2700 50  0001 C CNN
 	1    700  2750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	900  2650 950  2650
 $Comp
 L device:LED D2
 U 1 1 5AF39CA9
@@ -596,21 +594,16 @@ F 3 "" H 5400 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:Conn_01x02 J4
+L conn:Conn_01x01 J4
 U 1 1 5AF4251E
 P 700 3250
-F 0 "J4" H 620 2925 50  0000 C CNN
-F 1 "ExtSpkr" H 620 3016 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 700 3250 50  0001 C CNN
+F 0 "J4" H 700 3350 50  0000 C CNN
+F 1 "ExtSpkr" H 700 3150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 700 3250 50  0001 C CNN
 F 3 "~" H 700 3250 50  0001 C CNN
 	1    700  3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	900  3150 950  3150
-Wire Wire Line
-	950  3150 950  2650
-Connection ~ 950  2650
 Wire Wire Line
 	900  3250 1050 3250
 $Comp
@@ -1417,28 +1410,10 @@ Wire Wire Line
 Connection ~ 1550 2650
 Wire Wire Line
 	1550 2650 1550 3150
-$Comp
-L device:Jumper_NC_Small JP1
-U 1 1 5B0F3F40
-P 1350 2750
-F 0 "JP1" H 1350 2700 50  0000 C CNN
-F 1 "SPKR_EN" H 1350 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1350 2750 50  0001 C CNN
-F 3 "" H 1350 2750 50  0001 C CNN
-	1    1350 2750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1450 2750 3500 2750
-Wire Wire Line
-	1250 2750 1050 2750
 Wire Wire Line
 	1050 3250 1050 2750
-Connection ~ 1050 2750
 Wire Wire Line
 	1050 2750 900  2750
-Wire Wire Line
-	950  2650 1550 2650
 Wire Notes Line
 	5300 5950 950  5950
 Wire Notes Line
@@ -1662,4 +1637,20 @@ F 3 "" H 1800 7500 60  0001 C CNN
 	1    1800 7500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  2650 1550 2650
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 5BB91903
+P 1250 2750
+F 0 "SW7" H 1250 2550 50  0000 C CNN
+F 1 "SPKR_EN" H 1250 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 1250 2750 50  0001 C CNN
+F 3 "" H 1250 2750 50  0001 C CNN
+	1    1250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2750 3500 2750
+Connection ~ 1050 2750
 $EndSCHEMATC
