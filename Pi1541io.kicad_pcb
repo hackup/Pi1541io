@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 118)
+    (drawings 120)
     (tracks 581)
     (zones 0)
     (modules 56)
@@ -2354,6 +2354,12 @@
     (pad "" np_thru_hole oval (at 0 0) (size 2.7 1.1) (drill oval 2.7 1.1) (layers *.Cu *.Mask))
   )
 
+  (gr_text + (at 158.471 104.153) (layer F.SilkS) (tstamp 5BCD6990)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text + (at 152.375 104.153) (layer F.SilkS) (tstamp 5BCD698E)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_text + (at 162.662 73.673) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
